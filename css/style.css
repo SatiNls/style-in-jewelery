@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Lobster&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lobster&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+body{
+    background-color: rgba(234, 207, 175, 1);
+    font-family: 'Cormorant Infant', Medium;
+}
+header{
+   justify-content: center;
+    display: flex;
+}
+.header__logo{
+    text-align: center;
+}
+.logo-img{
+    min-width: 436.97px;
+    min-height: 81.89px;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(41, 22, 14, 1) ;
+}
+.header__nav{
+    text-decoration: none;
+    font-size: 40px;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.nav-links a{
+    margin: 20px 40px;
+}
+.section__about-us{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.section-about-us-a-little{
+    max-width: 800px;
+}
+.section__about-us img{
+    border-radius: 58px;
+    width: 500px;
+}
+
+.section__about-us-a-little__cataloge{
+    width: 241px;
+    border-radius: 36px;
+    color:rgba(209, 198, 199, 1) ;
+    background-color: rgba(41, 22, 14, 1);
+    font-family: 'Exo 2', Medium;
+    font-size: 33px;
+    font-weight: 500;
+    margin: 30px;
+padding: 15px;
+}
+:hover .section__about-us-a-little__cataloge{
+ cursor: pointer;
+}
+.section__about-us-a-little__big-slogan{
+    color: rgba(41, 22, 14, 1);
+    font-size: 90px;
+    font-weight: 900;
+}
+.section__about-us-a-little__slogan{
+    margin-top: -40px;
+    color: rgba(41, 22, 14, 1);
+    font-size: 35px;
+    font-weight: 500;
+}
+.section__about-us-a-little__slogan p{
+    border-bottom: solid 3px rgba(41, 22, 14, 1);
+}
+.section-about-us-main{
+    background-color: rgba(41, 22, 14, 1);
+}
+.section-about-us__main-info{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    font-size: 35px;
+}
+.section-about-us__main-info img{
+    /*width: 30%;*/
+    max-width: 400px;
+}
+.section-about-us__we-are-info{
+    background-color: rgba(41, 22, 14, 1);
+    color: rgba(234, 207, 175, 1);
+    max-width: 500px;
+}
+
+@media (max-width: 992px) {
+    .section-about-us__main-info {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-about-us__main-info img {
+        max-width: 60%;
+    }
+     .section-about-us__we-are-info{
+        max-width: 70%;
+     }
+}
+.section-about-us__title{
+    font-weight: 900;
+    text-align: center;
+}
+.section-about-us__message{
+    font-weight: 400;
+}
+.section__popular-now-title{
+    font-family: 'Exo 2';
+    font-size: 70px;
+    text-align: center;
+}
+:hover .section__popular-now-title{
+    border-bottom: double rgba(41, 22, 14, 1) 10px;
+    transition-duration: 1s;
+}
+.popular-now{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.popular-jewelery{
+    color: rgba(41, 22, 14, 1);
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    border:5px solid rgba(41, 22, 14, 1);
+    border-radius: 15px;
+    margin: 50px;
+    max-width:350px;
+    /*min-width: 200px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular-jewelery img{
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+}
+.go-to-cataloge{
+    text-decoration: none;
+    background-color: rgba(41, 22, 14, 1);
+    color: rgba(234, 207, 175, 1);
+    font-family: 'Exo 2';
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+.footer__items{
+    color: rgba(234, 207, 175, 1);
+    background-color: rgba(41, 22, 14, 1);
+}
+.footer__privacy{
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+}
+.footer__all-rights-are-protected{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(234, 207, 175, 1);
+}
+.footer__personal-data-processing{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(234, 207, 175, 1);
+}
+.footer__personal-data-processing, .footer__user-agreement{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(234, 207, 175, 1);
+}
+.footer__sns img{
+    width: 60px;
+    color: rgba(234, 207, 175, 1);
+}
+.footer__map{
+    text-align: center;
+}

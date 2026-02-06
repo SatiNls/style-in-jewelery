@@ -1,0 +1,33 @@
+/*.container{
+    display: flex;
+    justify-content: center;
+}*/
+.section__making-order{
+    text-align: center;
+    font-size: 35px;
+}
+.phrase{
+    font-style: italic;
+}
+input, select, option {
+    border: 3px solid  rgba(41, 22, 14, 1);
+    border-radius: 10px;
+    font-family: 'Exo 2', Medium;;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.submit-button{
+    text-align: center;
+    background-color:  rgba(41, 22, 14, 1);
+    color: rgba(209, 198, 199, 1);
+    font-size: 20px;
+    padding: 10px 25px;
+}
+.submit-button:hover{
+    color:  rgba(41, 22, 14, 1);
+    background-color: rgba(209, 198, 199, 1);
+    transition-duration: 1s;
+}
+.caption-smaller{
+    font-size: 20px;
+}
